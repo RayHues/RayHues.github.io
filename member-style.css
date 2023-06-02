@@ -1,0 +1,177 @@
+@media (max-width: 768px) {
+    *, html, body{
+        margin: 0;
+        padding: 0;
+        font-family: 'Inter', sans-serif;
+        text-decoration: none;
+        color: white;
+    }
+    .nav{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .home{
+
+        width: 45px;
+        height: 19px;
+   
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+    
+        color: #FFFFFF;
+        }
+        .about{
+        padding-right: 95px;
+        padding-left: 88px;
+        width: auto;
+        height: 19px;
+       
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+    
+        color: #FFFFFF;
+    
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+        .next{
+        
+        width: 49px;
+        height: 19px;
+       
+    
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        }
+    .main{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        background-image: url(asset/background2.jpg);
+        background-size: cover;
+        background-position: center;
+        align-items: center;
+    }
+    .top-bar{
+        position:fixed;
+        width: 360px;
+        height: 40px;
+        left: 0px;
+        top: 0px;
+    
+        background: linear-gradient(180deg, rgba(47, 47, 47, 0.41) 0%, rgba(0, 0, 0, 0) 100%);
+        backdrop-filter: blur(7.5px);
+   
+    
+        border-radius: 5px;
+    }
+    .logo{
+        width: 39px;
+        height: 39px;
+    }
+    .cmain{
+    width: 309px;
+    height: 252px;
+    margin-top: 50px;
+    
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    }
+    .cpic{
+    width: 122px;
+    height: 224px;
+    padding: 15px;
+    border-radius: 25px;
+    }
+    .cmain{
+        display: flex;
+        flex-direction: row;
+    }
+    .subcontent{
+        display: flex;
+        flex-direction: column;
+        height: 20px;
+        width: 140px;
+    }
+    .p-fname{
+        padding-top: 15px;
+    }
+    .p-desc{
+        font-size: 10px;
+        text-align: justify ;
+        padding-top: 20px;
+    }
+    .p-ig{
+        margin-top: 60PX;
+        display: flex;
+        flex-direction: row;
+        bottom: 15px;
+        
+    }
+    .p-ig-logo{
+        width: 15px;
+        height: 15px;
+        padding-top: 1px;
+        padding-right: 3px
+    }
+    .p-igacc{
+        font-size: 12px;
+        padding-top: 0.5px
+    }
+    
+    .s-main{
+        display: flex;
+        flex-direction: row;
+        margin-top:20px ;
+        width: 309px;
+        height: 190px;
+        
+        
+        border: 1px solid #FFFFFF;
+        border-radius: 10px;
+        }
+        .pic{
+        width: 100px;
+        height: 161px;
+        margin: 15px;
+        border-radius: 10px;
+        }
+        .fname{
+            font-size: 15px;
+        }
+        .sub-content{
+            padding-top: 11px;
+            width: 150px;
+        }
+        .desc{
+            font-size: 10px;
+            text-align: justify;
+            padding-top: 2px;
+        }
+        .dream{
+            font-size: 10px;
+        }
+        .ig{
+            display: flex;
+            padding-top: 14px;
+        }
+        .ig-logo{
+            width: 15px;
+            height: 15px;
+            padding-top: 1px;
+            padding-right: 3px
+        }
+        .igacc{
+            font-size: 12px;
+            padding-top: 0.5px
+        }
+}

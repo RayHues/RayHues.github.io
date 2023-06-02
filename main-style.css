@@ -1,0 +1,233 @@
+@media (max-width: 768px) {
+    *, html, body{
+        margin: 0;
+        padding: 0;
+        font-family: 'Inter', sans-serif;
+        text-decoration: none;
+    }
+    .main{
+        height: 802px;
+        width: 360px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .first{
+        position: absolute;
+        width: 100%;
+        height: 266px;
+        left: 0px;
+        top: -24px;
+        background-image: url(asset/background.png);
+        background-size: cover;
+        background-position: center;
+          
+    }
+    .top-bar{
+        position:fixed;
+        width: 360px;
+        height: 40px;
+        left: 0px;
+        top: 0px;
+    
+        background: linear-gradient(180deg, rgba(47, 47, 47, 0.41) 0%, rgba(0, 0, 0, 0) 100%);
+        backdrop-filter: blur(7.5px);
+   
+    
+        border-radius: 5px;
+    }
+    .logo{
+        width: 39px;
+        height: 39px;
+    }
+    .init{
+        position: absolute;
+        width: 289px;
+        height: 193px;  
+        left: 37px;
+        top: 45px;
+        background: url(initial.png);
+    }
+    .second{
+        position: absolute;
+        width: 100%;
+        height: 649px;
+        left: 0px;
+        top: 240px; 
+    
+        background-image: url(asset/background2.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .word{
+        position: absolute;
+        width: 218px;
+        height: 55px;
+        left: 19px;
+        top: 45px;
+    
+        font-family:  'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+    
+        color: #FFFFFF;
+    
+    }
+    .words{
+        position: absolute;
+        width: 239px;
+        height: 320px;
+        left: 19px;
+        top: 120px;
+    
+        font-family: 'Inter', ;
+        font-style: normal;
+        font-weight: 50;
+        font-size: 15px;
+        line-height: 17px;
+    
+        color: #FFFFFF;
+    }
+    .button{
+        position: absolute;
+        width: 95px;
+        height: 15px;
+        top: 820px;
+        font-family: 'Inter',;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+    /* identical to box height */
+    
+    
+        color: #FFFFFF;
+        border: 2px solid #FFFFFF;
+        padding: 10px;
+        border-radius: 20px;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .button:hover{
+        transform: scale(1.1);
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+        *, html, body{
+        margin: 0;
+        padding: 0;
+        font-family: 'Open Sans', sans-serif;
+        text-decoration: none;
+    }
+    .main{
+        height: 802px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .first{
+        position: absolute;
+        width: 100%;
+        height: 300px;
+        left: 0px;
+        top: -24px;
+        background-image: url(asset/background.png);
+        background-size: cover;
+        background-position: center;
+          
+    }
+    .top-bar{
+        position: absolute;
+        width: 100%;
+        height: 50px;
+        left: 0px;
+        top: 22px;
+    
+        background: linear-gradient(180deg, rgba(47, 47, 47, 0.41) 0%, rgba(0, 0, 0, 0) 100%);
+        backdrop-filter: blur(7.5px);
+    
+        border-radius: 5px;
+    }
+    .logo{
+        width: 55px;
+        height: 55px;
+    }
+    .init{
+        position: absolute;
+        width: 70%;
+        height: 400px;  
+        left: 10;
+        top: -45px;
+        background: url(initial.png);
+    }
+    .second{
+        position: absolute;
+        width: 100%;
+        height: 80%;
+        left: 0px;
+        top: 240px; 
+    
+        background-image: url(asset/background2.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .word{
+        position: absolute;
+        width: 400px;
+        height: 60px;
+        left: 30px;
+        top: 45px;
+    
+        font-family:  'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 35px;
+    
+        color: #FFFFFF;
+    
+    }
+    .words{
+        position: absolute;
+        width: 430px;
+        height: 320px;
+        left: 30px;
+        top: 150px;
+    
+        font-family: 'Inter', ;
+        font-style: normal;
+        font-weight: 70;
+        font-size: 25px;
+        line-height: 30px;
+    
+        color: #FFFFFF;
+    }
+    .button{
+        position: absolute;
+        width: 150px;
+        height: 20px;
+        top: 1200px;
+        font-family: 'Inter',;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 15px;
+    /* identical to box height */
+    
+    
+        color: #FFFFFF;
+        border: 3px solid #FFFFFF;
+        padding: 10px;
+        border-radius: 50px;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .button:hover{
+        transform: scale(1.1);
+    }
+  }
+  
